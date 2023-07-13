@@ -40,7 +40,7 @@ resource "azurerm_kubernetes_cluster" "main" {
     avm_git_last_modified_at = "2023-06-05 02:21:33"
     avm_git_org              = "mjacquez-palo"
     avm_git_repo             = "Adv11"
-    avm_yor_trace            = "b18b6e6c-4388-497d-89c2-1cc0ca973247"
+    avm_yor_trace            = "1c063dcb-c983-4ded-9392-2c0b827061f2"
     } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/), (/*<box>*/ (var.tracing_tags_enabled ? { for k, v in /*</box>*/ {
     avm_yor_name = "main"
   } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/))
@@ -551,7 +551,7 @@ resource "azurerm_kubernetes_cluster_node_pool" "node_pool" {
     avm_git_last_modified_at = "2023-05-04 05:02:32"
     avm_git_org              = "mjacquez-palo"
     avm_git_repo             = "Adv11"
-    avm_yor_trace            = "6ec33f29-71e6-464b-95ec-04598b9191d4"
+    avm_yor_trace            = "692aeb3c-bced-4186-92af-109187675b51"
     } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/), (/*<box>*/ (var.tracing_tags_enabled ? { for k, v in /*</box>*/ {
     avm_yor_name = "node_pool"
   } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/))
@@ -695,7 +695,7 @@ resource "azurerm_log_analytics_workspace" "main" {
     avm_git_last_modified_at = "2023-06-05 02:21:33"
     avm_git_org              = "mjacquez-palo"
     avm_git_repo             = "Adv11"
-    avm_yor_trace            = "8d2b8db1-724a-4ffb-b3f6-bcd22106faf5"
+    avm_yor_trace            = "88f6e580-bc13-48ad-8f72-76743a419277"
     } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/), (/*<box>*/ (var.tracing_tags_enabled ? { for k, v in /*</box>*/ {
     avm_yor_name = "main"
   } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/))
@@ -735,7 +735,7 @@ resource "azurerm_log_analytics_solution" "main" {
     avm_git_last_modified_at = "2023-06-01 03:13:59"
     avm_git_org              = "mjacquez-palo"
     avm_git_repo             = "Adv11"
-    avm_yor_trace            = "38e9d0d2-e60b-407f-9be7-f07cbb1379d1"
+    avm_yor_trace            = "ef346fc9-17cc-4aca-9ac4-3ccbc6595aac"
     } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/), (/*<box>*/ (var.tracing_tags_enabled ? { for k, v in /*</box>*/ {
     avm_yor_name = "main"
   } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/))
